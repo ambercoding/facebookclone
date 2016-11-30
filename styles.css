@@ -1,4 +1,10 @@
+img{
+	max-width: 100%;
+}
+
+
 #facebook-wrapper{
+	font-family: helvetica, sans-serif;
 	/* if we need whole page styles */
 }
 #header{
@@ -32,6 +38,9 @@
 #right-header{
 	float: right;
 }
+#right-header div{
+	float: left;
+}
 #small-avatar{
 	height: 24px;
 	width: 24px;
@@ -41,6 +50,7 @@
 	width: 24px;
 	background-image:  url('fb_sprite.png');
 	background-size: 26px 905px;
+	margin-left: 10px;
 }
 .friends{
 	background-position: 0 -188px;
@@ -53,3 +63,90 @@
 	background-position: 0 -238px;
 
 }
+.lock {
+	background-position:  0 -859px;
+	height: 16px;
+	margin-left: 10px;
+	/*padding-left: 10px;
+	border-left: 1px solid #444;*/
+
+}
+.down-arrow{
+	background-position: 0px -825px;
+	height:  16px;
+
+}
+.spacer{
+	line-height: 24px;
+	margin: 0 10px;
+}
+#cover-photo-wrapper{
+	max-width: 900px;
+	margin: auto;
+	width: 100%;
+}
+#big-photo{
+max-height: 350px;
+overflow:  hidden;
+}
+#big-photo img{
+width: 100%;
+}
+#big-avatar{
+	display: inline-block;
+}
+#avatar-name{
+	float: left;
+	
+	font-size: 24px;
+}
+#cover-buttons {
+	float: right;
+
+}
+#cover-buttons button{
+	font-weight: bold;
+	color: #4b4f56;
+	background-color: #f6f7f9;
+	border: 1px solid #4b4f56;
+	padding: 0 10px 0 10px;
+	line-height: 26px;
+	border-radius: 2px;
+
+}
+#cover-menu{
+	clear: both;
+
+}
+.cover-menu-item{
+	float: left;
+	list-style-type: none;
+	padding: 5px;
+	margin-top: 20px;
+	border: 1px solid black;
+	background-color: white;
+
+}
+#cover-photo-right{
+	display: inline-block;
+	width: 80%;
+}
+#cover-photo-lower{
+	margin-top: -140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
