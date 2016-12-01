@@ -11,6 +11,9 @@ img{
 	background-color: #3b5998;
 	overflow:  hidden;
 	width: 100%;
+	height: 30px;
+	padding: 6px 2px 6px 2px;
+	line-height: 25px;
 
 }
 #left-header{
@@ -32,11 +35,14 @@ img{
 	margin-left:  10px;
 }
 #fb-search input{
-	border-radius: 5px;
-	width: 200px;
+	border-radius: 2px;
+	width: 393px;
+	height: 23px;
+	border: none;
 }
 #right-header{
 	float: right;
+	font-size: 12px;
 }
 #right-header div{
 	float: left;
@@ -96,13 +102,21 @@ width: 100%;
 	display: inline-block;
 	border: 3px solid white;
 	border-radius: 2px;
+	position: relative;
+	z-index: 1;
+	left: 21px;
+	bottom: 15px;
 }
 #avatar-name{
 	float: left;
 	font-size: 24px;
+	position: relative;
+	left: 44px;
 }
 #cover-buttons {
 	float: right;
+	position: relative;
+	right: 15px;
 
 }
 #cover-buttons button{
@@ -112,37 +126,71 @@ width: 100%;
 	border: 1px solid #4b4f56;
 	padding: 0 10px 0 10px;
 	line-height: 26px;
-	border-radius: 2px;
+	border-radius: 1px;
 
 }
 #cover-menu{
 	clear: both;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	margin-top: -47px;
+
 
 }
 .cover-menu-item{
 	float: left;
 	list-style-type: none;
-	padding: 5px;
-	margin-top: 20px;
-	border: 1px solid gray;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-left: 1px solid #E9EBEE;
+	border-right: 1px solid #E9EBEE;
 	color: #3B5998;
 	font-size: 14px;
 	font-weight: bold;
 	background-color: white;
-	width: 15%;
-	height: 20px;
+	width: 10%;
+	height: 25px;
 	text-align: center;
-
+	line-height: 25px;
+	position: relative;
 }
+.cover-menu-item:hover{
+	background-color: #E9EBEE;
+}
+
+.cover-menu-item:first-child{
+	margin-left: 220px;
+}
+
 #cover-photo-right{
 	display: inline-block;
 	width: 80%;
+	position:  relative;
+	top: -100px;
 }
 #cover-photo-lower{
-	margin-top: -140px;
+	margin-top: -130px;
 }
+#avatar-name-top{
+	color: white;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+#home-link a{
+	color: white;
+	text-decoration: none;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.bspace{
+	padding-right: 101px;
 
-
+}
+body {
+	background-color: #E9EBEE;
+}
 
 
 
