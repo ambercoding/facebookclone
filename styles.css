@@ -94,10 +94,11 @@ width: 100%;
 }
 #big-avatar{
 	display: inline-block;
+	border: 3px solid white;
+	border-radius: 2px;
 }
 #avatar-name{
 	float: left;
-	
 	font-size: 24px;
 }
 #cover-buttons {
@@ -123,8 +124,14 @@ width: 100%;
 	list-style-type: none;
 	padding: 5px;
 	margin-top: 20px;
-	border: 1px solid black;
+	border: 1px solid gray;
+	color: #3B5998;
+	font-size: 14px;
+	font-weight: bold;
 	background-color: white;
+	width: 15%;
+	height: 20px;
+	text-align: center;
 
 }
 #cover-photo-right{
@@ -134,7 +141,6 @@ width: 100%;
 #cover-photo-lower{
 	margin-top: -140px;
 }
-
 
 
 
